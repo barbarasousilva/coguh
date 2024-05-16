@@ -1,0 +1,48 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar {
+    background-color: #6ad16f;
+}
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #6ad16f;
+}
+#cabecalho .nav .nav-link, .navbar-brand, .navbar-brand:hover, .nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+.navbar-toggler {
+    background-color: #dafae1;
+}
+.section-title {
+    font-family: 'Madimi One',cursive;
+}
+#sobre-nos , #cardapio {
+    background-color: #dafae1;
+}
+.text-colored {
+    color: #6ad16f;
+}
+.nav-cardapio .nav-link.active, #fale-conosco button {
+    background-color: #6ad16f;
+    color: #fff;
+}
+.nav-cardapio .nav-link:hover {
+    color: #6ad16f;
+}
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+.social-links a {
+    text-decoration: none;
+}
+@media (max-width: 720px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+.carousel-inner > .carousel-item img {
+    width: 100%;
+}

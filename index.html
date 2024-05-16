@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Roboto:wght@400;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>coguh!</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">
+                coguh!
+            </h1>
+            <button data-bs-toggle="collapse" data-bs-target="#menu-navegacao" class="navbar-toggler">
+                <span class="navbar-toggler-icon">
+
+                </span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#sobre-o-nos">
+                            <i class="bi-house-door me-1"></i>
+                            Sobre nós</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#beneficios">
+                            <i class="bi bi-hand-thumbs-up"></i>
+                            Benefícios</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#cardapio">
+                            <i class="bi-card-text me-1"></i>
+                            Nosso cardápio</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#fale-conosco">
+                            <i class="bi-chat-left-text me-1"></i>
+                            Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-nos">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/slides/slide1.png" data-bs-interval="3000" alt="Foto cogumelos em um tronco">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/slides/slide2.png" data-bs-interval="3000" alt="Foto cogumelos cinza em uma árvore">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/slides/slide3.png" data-bs-interval="3000" alt="Borboleta voando proximas a cogumelos">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon">
+                    </span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon">
+                    </span>
+                </button>
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0" >
+    
+                    </button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1">
+    
+                    </button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2">
+    
+                    </button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/sobreCogu.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno do restaurante">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">a coguh!</span></h2>
+                            <p>Bem-vinde à coguh! sua loja online especializada na venda de cogumelos Juba de Leão, Psilocybe Cubensis e Amanita Muscaria. Com uma paixão pelo mundo dos fungos e um compromisso com a qualidade, estamos empenhados em oferecer os melhores produtos para os entusiastas e exploradores da natureza psicodélica.
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="beneficios" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Benefícios dos <span class="text-colored">cogumelos</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./images/cogumelos/juba.jpg" class="d-block w-100 rounded mb-2" alt="">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-1-circle"></i>
+                            Juba de Leão
+                        </h3>
+                        <p>O cogumelo juba de leão, cientificamente conhecido como Hericium erinaceus, é conhecido por seus potenciais benefícios para a saúde.</p>
+                        <ol>
+                            <li><strong>Estimulação do Sistema Imunológico: </strong>Contém compostos bioativos que podem fortalecer o sistema imunológico, ajudando o corpo a combater infecções e doenças.</li>
+                            <li><strong>Promoção da Saúde Digestiva: </strong>Pode ajudar a melhorar a saúde do trato gastrointestinal, apoiando a digestão saudável e contribuindo para um equilíbrio adequado da flora intestinal.</li>
+                            <li><strong>Propriedades Antioxidantes:</strong> Rica em antioxidantes, que podem ajudar a combater os danos causados pelos radicais livres no corpo, reduzindo o risco de doenças crônicas e promovendo o envelhecimento saudável.</li>
+                            <li><strong>Suporte ao Sistema Nervoso:</strong> Estudos sugerem que o consumo de cogumelo juba de leão pode ter efeitos neuroprotetores, ajudando a proteger o cérebro e o sistema nervoso central contra danos e degeneração</li>
+                            <li><strong>Melhora da Função Cognitiva: </strong>Alguns estudos indicam que os compostos encontrados no cogumelo juba de leão podem ajudar a melhorar a função cognitiva, incluindo a memória e o foco.</li>
+                            <li><strong>Redução do Estresse e da Ansiedade: </strong>Pode ter efeitos calmantes sobre o sistema nervoso, ajudando a reduzir os níveis de estresse e ansiedade.</li>
+                            <li><strong>Suporte à Saúde Cardiovascular: </strong>Alguns estudos sugerem que o consumo regular de cogumelo juba de leão pode estar associado a uma redução do colesterol LDL (mau colesterol) e a uma melhora na saúde do coração.</li>
+                            <li><strong>Potencial Anticancerígeno: </strong>Alguns estudos preliminares sugerem que certos compostos encontrados no cogumelo juba de leão podem ter propriedades anticancerígenas, inibindo o crescimento de células cancerígenas e promovendo a apoptose celular.</li>
+                        </ol>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/cogumelos/cubensis.jpg" class="d-block w-100 rounded mb-2" alt="">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-2-circle"></i>
+                            Psilocybe Cubensis
+                        </h3>
+                        <p>Os cogumelos Psilocybe cubensis, conhecidos por seus efeitos psicodélicos, têm despertado interesse não apenas pela sua experiência recreativa, mas também pelos possíveis benefícios terapêuticos associados ao seu uso responsável. </p>
+                        <ol>
+                            <li><strong>Potencial para Tratamento de Transtornos Mentais:</strong> Pesquisas sugerem que o uso controlado de psilocibina, o composto psicodélico presente nos cogumelos Psilocybe cubensis, pode ser promissor no tratamento de transtornos mentais como depressão, ansiedade, transtorno de estresse pós-traumático (TEPT) e dependência química.</li>
+                            <li><strong>Aumento da Consciência e Insight: </strong>Muitos usuários relatam experiências profundamente introspectivas e esclarecedoras durante o uso de Psilocybe cubensis, o que pode levar a uma maior compreensão de si mesmo, dos outros e do universo.</li>
+                            <li><strong>Redução do Medo da Morte:</strong> Algumas pesquisas sugerem que o uso de psicodélicos, como os cogumelos Psilocybe cubensis, pode ajudar as pessoas a lidar com o medo da morte e a enfrentar questões existenciais de uma maneira mais positiva e construtiva.</li>
+                            <li><strong>Melhora do Bem-Estar Psicológico: </strong>Relatos anedóticos e estudos preliminares sugerem que o uso responsável de Psilocybe cubensis pode estar associado a uma melhoria geral do bem-estar psicológico, incluindo aumento da criatividade, empatia e sensação de conexão com os outros e com a natureza.</li>
+                            <li><strong>Potencial para Alívio de Dores Crônicas e Enxaquecas:</strong> Algumas pesquisas indicam que a psilocibina pode ter propriedades analgésicas e anti-inflamatórias, o que pode ser benéfico para pessoas que sofrem de dores crônicas, enxaquecas e outros distúrbios relacionados à dor.</li>
+                            <li><strong>Promoção do Crescimento Espiritual:</strong> Muitos usuários relatam experiências místicas e espirituais durante o uso de Psilocybe cubensis, o que pode levar a um maior senso de conexão com o sagrado, com o universo e com um propósito maior na vida.</li>
+                        </ol>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/cogumelos/amanita.jpg" class="d-block w-100 rounded mb-2" alt="">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-3-circle"></i>
+                            Amanita Muscaria
+                        </h3>
+                        <p>
+                            O cogumelo Amanita muscaria é conhecido por suas propriedades psicoativas, mas também pode apresentar outros possíveis benefícios. </p>
+                            <ol>
+                                <li><strong>Efeitos Psicoativos:</strong> O consumo de Amanita muscaria pode induzir estados alterados de consciência e experiências psicodélicas, que algumas pessoas relatam como positivas para a introspecção, criatividade e crescimento espiritual.</li>
+                                <li><strong>Possível Uso em Rituais e Práticas Espirituais:</strong> Em algumas culturas e tradições indígenas, o Amanita muscaria é utilizado em rituais religiosos e espirituais como um meio de alcançar estados de transe e comunhão com o divino.</li>
+                                <li><strong>Potencial para Tratamento de Doenças Mentais:</strong> Embora haja poucas evidências científicas, alguns pesquisadores exploraram o potencial terapêutico do Amanita muscaria no tratamento de distúrbios mentais, como depressão, ansiedade e dependência química.</li>
+                                <li><strong>Propriedades Antioxidantes e Anti-inflamatórias:</strong> Estudos preliminares sugerem que certos compostos encontrados no Amanita muscaria podem ter propriedades antioxidantes e anti-inflamatórias, o que pode ser benéfico para a saúde geral do organismo.</li>
+                                <li><strong>Possível Uso na Medicina Tradicional:</strong> Em algumas culturas tradicionais, o Amanita muscaria foi utilizado como um remédio para diversas condições, incluindo dores de cabeça, dores musculares, artrite e distúrbios do sono. No entanto, o uso medicinal desse cogumelo não é amplamente reconhecido pela medicina moderna e deve ser feito com extrema cautela.</li>
+                            </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nosso <span class="text-colored">cardápio</span>
+                    </h2>
+                    <div class="row">
+                        <aside class="col-md-2">
+                            <nav class="nav nav-pills flex-column nav-cardapio">
+                                <button data-bs-toggle="tab" data-bs-target="#saude-do-corpo" type="button" class="fw-bold text-start nav-link text-colored active">Saúde do corpo</button>
+                                <button data-bs-toggle="tab" data-bs-target="#saude-da-mente" type="button" class="fw-bold text-start nav-link text-colored">Saúde da mente</button>
+                                <button data-bs-toggle="tab" data-bs-target="#alucinogenos" type="button" class="fw-bold text-start nav-link text-colored">Alucinógenos</button>
+                            </nav>
+                        </aside>
+                        <div class="col-md-10">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="saude-do-corpo">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cogumelos/amanita.jpg" alt="Amanita">
+                                            <h5 class="text-colored fw-bold mt-2">Amanita</h5>
+                                            <p>O cogumelo Amanita muscaria é conhecido por suas propriedades psicoativas, mas também pode apresentar outros possíveis benefícios. </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cogumelos/cubensis.jpg"  alt="Cubensis">
+                                            <h5 class="text-colored fw-bold mt-2">Cubensis</h5>
+                                            <p>Os cogumelos Psilocybe cubensis, conhecidos por seus efeitos psicodélicos, têm despertado interesse não apenas pela sua experiência recreativa, mas também pelos possíveis benefícios terapêuticos associados ao seu uso responsável. </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/cogumelos/juba.jpg" alt="Juba de Leão">
+                                            <h5 class="text-colored fw-bold mt-2">Juba de Leão</h5>
+                                            <p>O cogumelo juba de leão, cientificamente conhecido como Hericium erinaceus, é conhecido por seus potenciais benefícios para a saúde. </p>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="tab-pane" id="saude-da-mente">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="./images/cogumelos/amanita.jpg" alt="Amanita">
+                                                <h5 class="text-colored fw-bold mt-2">Amanita</h5>
+                                                <p>O cogumelo Amanita muscaria é conhecido por suas propriedades psicoativas, mas também pode apresentar outros possíveis benefícios. </p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="./images/cogumelos/cubensis.jpg"  alt="Cubensis">
+                                                <h5 class="text-colored fw-bold mt-2">Cubensis</h5>
+                                                <p>Os cogumelos Psilocybe cubensis, conhecidos por seus efeitos psicodélicos, têm despertado interesse não apenas pela sua experiência recreativa, mas também pelos possíveis benefícios terapêuticos associados ao seu uso responsável. </p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="./images/cogumelos/juba.jpg" alt="Juba de Leão">
+                                                <h5 class="text-colored fw-bold mt-2">Juba de Leão</h5>
+                                                <p>O cogumelo juba de leão, cientificamente conhecido como Hericium erinaceus, é conhecido por seus potenciais benefícios para a saúde. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="alucinogenos">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="./images/cogumelos/amanita.jpg" alt="Amanita">
+                                                <h5 class="text-colored fw-bold mt-2">Amanita</h5>
+                                                <p>O cogumelo Amanita muscaria é conhecido por suas propriedades psicoativas, mas também pode apresentar outros possíveis benefícios. </p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="./images/cogumelos/cubensis.jpg"  alt="Cubensis">
+                                                <h5 class="text-colored fw-bold mt-2">Cubensis</h5>
+                                                <p>Os cogumelos Psilocybe cubensis, conhecidos por seus efeitos psicodélicos, têm despertado interesse não apenas pela sua experiência recreativa, mas também pelos possíveis benefícios terapêuticos associados ao seu uso responsável. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="pratos-principais">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="./images/cardapio/pratos/pizza.jpg" alt="Pizza">
+                                                <h5 class="text-colored fw-bold mt-2">Pizza</h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos iste numquam at? </p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="./images/cardapio/pratos/salmao.jpg" alt="Salmão">
+                                                <h5 class="text-colored fw-bold mt-2">Salmão</h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos iste numquam at? </p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="./images/cardapio/pratos/pizza.jpg" alt="Pizza">
+                                                <h5 class="text-colored fw-bold mt-2">Pizza</h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos iste numquam at? </p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="./images/cardapio/pratos/salmao.jpg" alt="Salmão">
+                                                <h5 class="text-colored fw-bold mt-2">Salmão</h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos iste numquam at? </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="sobremesas">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="./images/cardapio/sobremesas/bolo.jpg" alt="Bolos">
+                                                <h5 class="text-colored fw-bold mt-2">Bolo</h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos iste numquam at? </p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="./images/cardapio/sobremesas/cupcake.jpg" alt="Cupcake">
+                                                <h5 class="text-colored fw-bold mt-2">Cupcake</h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos iste numquam at? </p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="./images/cardapio/sobremesas/bolo.jpg" alt="Bolos">
+                                                <h5 class="text-colored fw-bold mt-2">Bolo</h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos iste numquam at? </p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="./images/cardapio/sobremesas/cupcake.jpg" alt="Cupcake">
+                                                <h5 class="text-colored fw-bold mt-2">Cupcake</h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos iste numquam at? </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">
+                        Fale <span class="text-colored">conosco</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Seu mensagem</label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes socias</h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço</h3>
+                            <p>Rua dos Sonhos, Bairro da Consciência - São Paulo -SP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <script src="./lib/bootstrap.bundle.js"></script>
+</body>
+</html>
